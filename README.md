@@ -1,12 +1,10 @@
-
 # Explore 
 
 to-do
 
 [![CircleCI](https://circleci.com/gh/rootstrap/rails_api_base.svg?style=svg)](https://circleci.com/gh/piloterr/explore)
-[![Maintainability](https://api.codeclimate.com/v1/badges/3453298eb538597d1abd/maintainability)](https://codeclimate.com/github/piloterr/explore/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/3453298eb538597d1abd/test_coverage)](https://codeclimate.com/github/piloterr/explore/test_coverage)
-![Heroku](https://heroku-badge.herokuapp.com/?app=piloterr-explore)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c7923a3c46ab456d82d0/maintainability)](https://codeclimate.com/github/piloterr/explore-backend/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/c7923a3c46ab456d82d0/test_coverage)](https://codeclimate.com/github/piloterr/explore-backend/test_coverage)
 
 ## How to use
 
@@ -17,6 +15,6 @@ to-do
 5. `yarn install`
 6. Generate a secret key with `rake secret` and paste this value into the `application.yml`.
 7. `rails db:create db:migrate`
-8. `rspec` and make sure all tests pass
+8. `rake code_analysis` and make sure all tests pass
 9. `rails s`
 10. You can try
